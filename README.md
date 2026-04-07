@@ -1,1 +1,3 @@
-© 2026 BlackNinja. All rights reserved.
+# Welcome to your Lovable project
+
+TODO: Document your project here
