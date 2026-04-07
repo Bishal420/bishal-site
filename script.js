@@ -1,4 +1,6 @@
-// Mobile Menu Toggle
+function addToCart() {
+  alert("Product added to cart!");
+}// Mobile Menu Toggle
 const menuToggle = document.getElementById("menu-toggle");
 const navLinks = document.querySelector(".nav-links");
 
