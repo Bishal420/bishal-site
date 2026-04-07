@@ -1,4 +1,174 @@
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peak Fitness Gym</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Peak<span>Fit</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" id="navbar">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#locations" class="nav-link">Locations</a>
+        <a href="#packages" class="nav-link">Packages</a>
+        <a href="#footer" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">New Heights. Better You.</p>
+          <h1>Train Hard. Stay Strong. Live Healthy.</h1>
+          <p>Modern gym facilities, expert coaches, and custom programs for every fitness level.</p>
+          <div class="hero-actions">
+            <a href="#packages" class="btn btn-primary">Join Now</a>
+            <a href="#about" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="stats">
+            <div>
+              <strong>24/7</strong>
+              <span>Access</span>
+            </div>
+            <div>
+              <strong>35+</strong>
+              <span>Classes</span>
+            </div>
+            <div>
+              <strong>4.9</strong>
+              <span>Rating</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container section-header">
+        <p class="eyebrow">About Us</p>
+        <h2>Why PeakFit Is the Right Choice</h2>
+        <p>We combine premium equipment, motivating trainers, and welcoming community support to help you reach your fitness goals faster.</p>
+      </div>
+      <div class="container about-grid">
+        <div class="about-card">
+          <h3>Expert Trainers</h3>
+          <p>Personalized coaching and progress tracking designed to keep you motivated and injury-free.</p>
+        </div>
+        <div class="about-card">
+          <h3>Modern Equipment</h3>
+          <p>State-of-the-art machines, free weights, functional training zones, and recovery areas.</p>
+        </div>
+        <div class="about-card">
+          <h3>Flexible Plans</h3>
+          <p>Memberships, drop-ins, and family packages that adapt to your schedule and fitness needs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="locations section" id="locations">
+      <div class="container section-header">
+        <p class="eyebrow">Locations</p>
+        <h2>Find Your Nearest Gym</h2>
+      </div>
+      <div class="container location-grid">
+        <article class="location-card">
+          <h3>Downtown</h3>
+          <p>Open 24/7 with premium classes and personal training.</p>
+          <p><strong>123 Center St.</strong></p>
+        </article>
+        <article class="location-card">
+          <h3>Riverside</h3>
+          <p>Bright, open workout spaces plus recovery lounge.</p>
+          <p><strong>58 River Park Ave.</strong></p>
+        </article>
+        <article class="location-card">
+          <h3>Eastside</h3>
+          <p>Perfect for early birds with express group training.</p>
+          <p><strong>200 East Blvd.</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="packages section" id="packages">
+      <div class="container section-header">
+        <p class="eyebrow">Memberships</p>
+        <h2>Choose a Plan That Fits You</h2>
+      </div>
+      <div class="container package-grid">
+        <article class="package-card">
+          <h3>Starter</h3>
+          <p class="price">$29<span>/mo</span></p>
+          <ul>
+            <li>Gym access</li>
+            <li>2 classes weekly</li>
+            <li>Basic support</li>
+          </ul>
+          <a href="#footer" class="btn btn-primary">Get Started</a>
+        </article>
+        <article class="package-card featured">
+          <span class="badge">Best Value</span>
+          <h3>Pro</h3>
+          <p class="price">$49<span>/mo</span></p>
+          <ul>
+            <li>All access</li>
+            <li>Unlimited classes</li>
+            <li>Nutrition coaching</li>
+          </ul>
+          <a href="#footer" class="btn btn-primary">Join Pro</a>
+        </article>
+        <article class="package-card">
+          <h3>Elite</h3>
+          <p class="price">$79<span>/mo</span></p>
+          <ul>
+            <li>Personal training</li>
+            <li>Recovery sessions</li>
+            <li>VIP support</li>
+          </ul>
+          <a href="#footer" class="btn btn-primary">Go Elite</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#" class="logo footer-logo">Peak<span>Fit</span></a>
+        <p>Premium gym experiences with convenient locations and expert coaching.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#about">About</a>
+        <a href="#locations">Locations</a>
+        <a href="#packages">Packages</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: hello@peakfit.com</p>
+        <p>Phone: (555) 123-4567</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 PeakFit Gym. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html></html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
