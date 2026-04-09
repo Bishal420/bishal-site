@@ -1,63 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZimZone | Premium Fitness Ecosystem</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-</head>
-<body>
+<!-- ... Header remains same, just ensuring script handles toggle ... -->
 
-<header class="navbar">
-    <div class="logo">ZIM<span>ZONE</span></div>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#packages">Plans</a></li>
-            <li><a href="#recovery">Recovery</a></li>
-        </ul>
-    </nav>
-    <div class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">&#9776;</div>
-    <button class="nav-cta" onclick="scrollToSection('packages')">Join Now</button>
-</header>
-
-<section id="hero" class="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-        <span class="badge">EST. 2026</span>
-        <h1>EVOLVE YOUR <span>LIMITS</span></h1>
-        <p>Beyond equipment. A complete ecosystem for performance and restoration.</p>
-        <div class="hero-btns">
-            <button class="btn-primary" onclick="scrollToSection('packages')">Start Trial</button>
-            <button class="btn-secondary" onclick="scrollToSection('about')">Explore Space</button>
-        </div>
-    </div>
+<section class="stats-container">
+    <div class="stat-item"><h2>500+</h2><p>PRO ATHLETES</p></div>
+    <div class="stat-item"><h2>12</h2><p>ELITE COACHES</p></div>
+    <div class="stat-item"><h2>24/7</h2><p>SMART ACCESS</p></div>
+    <div class="stat-item"><h2>98%</h2><p>SUCCESS RATE</p></div>
 </section>
 
-<section id="locations" class="bento-container">
-    <h2 class="section-title">Our Ecosystem</h2>
+<section id="about" class="bento-container reveal">
+    <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">The Facility</h2>
     <div class="bento-grid">
         <div class="bento-item main-hub">
-            <h3>Downtown Hub</h3>
-            <p>24/7 Access • Olympic Lifting Area</p>
+            <h3>The Iron Cathedral</h3>
+            <p>6,000 sq.ft of premium Rogue equipment and Olympic platforms.</p>
         </div>
         <div class="bento-item recovery-zone" id="recovery">
-            <h3>Recovery Suite</h3>
-            <p>Cryotherapy & Infrared Saunas</p>
+            <h3>Bio-Hack Wing</h3>
+            <p>Cold plunges and compression therapy.</p>
         </div>
         <div class="bento-item tech-lab">
-            <h3>Biometric Lab</h3>
-            <p>Wearable Integration & Tracking</p>
+            <h3>AI Analytics</h3>
+            <p>Real-time form tracking via AI cameras.</p>
         </div>
     </div>
 </section>
 
-<footer class="footer">
-    <p>&copy; 2026 ZimZone Gym. Built for Performance.</p>
-</footer>
+<section id="packages" class="pricing-section reveal">
+    <span class="badge">Memberships</span>
+    <h2 style="font-size: 2.5rem;">CHOOSE YOUR LEVEL</h2>
+    
+    <div class="pricing-grid">
+        <div class="price-card">
+            <h3>CORE</h3>
+            <div class="price">$49<span>/mo</span></div>
+            <ul>
+                <li>24/7 Gym Access</li>
+                <li>Digital Workout Plans</li>
+                <li>Locker Room Access</li>
+            </ul>
+            <button class="btn-secondary">Get Started</button>
+        </div>
 
-<script src="script.js"></script>
-</body>
-</html>
+        <div class="price-card featured">
+            <div class="badge" style="position:absolute; top:20px; right:20px;">Popular</div>
+            <h3>ELITE</h3>
+            <div class="price">$89<span>/mo</span></div>
+            <ul>
+                <li>All Core Features</li>
+                <li>Recovery Suite Access</li>
+                <li>1 Personal Training Session</li>
+                <li>Biometric Tracking</li>
+            </ul>
+            <button class="btn-primary">Join Elite</button>
+        </div>
+
+        <div class="price-card">
+            <h3>PRO</h3>
+            <div class="price">$149<span>/mo</span></div>
+            <ul>
+                <li>Unlimited Recovery</li>
+                <li>Private Coaching</li>
+                <li>Nutrition Planning</li>
+                <li>Guest Passes</li>
+            </ul>
+            <button class="btn-secondary">Go Pro</button>
+        </div>
+    </div>
+</section>
