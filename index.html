@@ -1,6 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZimZone | Premium Fitness Ecosystem</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">ZIM<span>ZONE</span></div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#packages">Plans</a></li>
+            <li><a href="#recovery">Recovery</a></li>
+        </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">&#9776;</div>
+    <button class="nav-cta" onclick="scrollToSection('packages')">Join Now</button>
+</header>
+
+<section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="badge">EST. 2026</span>
+        <h1>EVOLVE YOUR <span>LIMITS</span></h1>
+        <p>Beyond equipment. A complete ecosystem for performance and restoration.</p>
+        <div class="hero-btns">
+            <button class="btn-primary" onclick="scrollToSection('packages')">Start Trial</button>
+            <button class="btn-secondary" onclick="scrollToSection('about')">Explore Space</button>
+        </div>
+    </div>
+</section>
+
+<section id="locations" class="bento-container">
+    <h2 class="section-title">Our Ecosystem</h2>
+    <div class="bento-grid">
+        <div class="bento-item main-hub">
+            <h3>Downtown Hub</h3>
+            <p>24/7 Access • Olympic Lifting Area</p>
+        </div>
+        <div class="bento-item recovery-zone" id="recovery">
+            <h3>Recovery Suite</h3>
+            <p>Cryotherapy & Infrared Saunas</p>
+        </div>
+        <div class="bento-item tech-lab">
+            <h3>Biometric Lab</h3>
+            <p>Wearable Integration & Tracking</p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2026 ZimZone Gym. Built for Performance.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ZimZone Fitness</title>
