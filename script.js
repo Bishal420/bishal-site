@@ -1,21 +1,21 @@
-// Mobile Menu Toggle
-const menuToggle = document.getElementById("menu-toggle");
-const navLinks = document.querySelector(".nav-links");
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+}
 
-menuToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
-
-// Smooth Scroll Function
-function scrollToSection(sectionId) {
-    document.getElementById(sectionId).scrollIntoView({
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({
         behavior: "smooth"
     });
 }
 
-// Close menu after click (mobile UX improvement)
-document.querySelectorAll(".nav-links a").forEach(link => {
-    link.addEventListener("click", () => {
-        navLinks.classList.remove("active");
+/* Scroll animation */
+const faders = document.querySelectorAll(".fade-in");
+
+window.addEventListener("scroll", () => {
+    faders.forEach(el => {
+        const top = el.getBoundingClientRect().top;
+        if (top < window.innerHeight - 100) {
+            el.classList.add("show");
+        }
     });
 });
