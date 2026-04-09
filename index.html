@@ -1,74 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitZone Gym</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZimZone Fitness</title>
+<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<!-- Navbar -->
-<header>
-    <nav class="navbar">
-        <div class="logo"><h9>ZimZone</h9></div>
-        <ul class="nav-links">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#locations">Locations</a></li>
-            <li><a href="#packages">Packages</a></li>
-        </ul>
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-    </nav>
+<header class="navbar">
+    <div class="logo">ZimZone</div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="#packages">Plans</a></li>
+    </ul>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
 </header>
 
-<!-- Hero Section -->
 <section id="hero" class="hero">
+    <div class="overlay"></div>
     <div class="hero-content">
-        <h1>Transform Your Body</h1>
-        <p>Join the best gym in town today</p>
-        <button onclick="scrollToSection('packages')">Join Now</button>
+        <h1>Build Your Dream Body</h1>
+        <p>Premium fitness experience with expert trainers</p>
+        <button onclick="scrollToSection('packages')">Get Started</button>
     </div>
 </section>
 
-<!-- About -->
-<section id="about" class="about">
-    <h2>About Us</h2>
-    <p>We provide world-class fitness training with modern equipment and expert trainers.</p>
+<section id="about" class="about fade-in">
+    <h2>Why Choose Us</h2>
+    <p>Top-tier equipment, certified trainers, and a community that pushes you forward.</p>
 </section>
 
-<!-- Locations -->
-<section id="locations" class="locations">
+<section id="locations" class="locations fade-in">
     <h2>Our Locations</h2>
-    <div class="location-cards">
-        <div class="card">Downtown</div>
-        <div class="card">City Center</div>
-        <div class="card">Uptown</div>
+    <div class="cards">
+        <div class="card">Mumbai Central</div>
+        <div class="card">Andheri</div>
+        <div class="card">Bandra</div>
     </div>
 </section>
 
-<!-- Packages -->
-<section id="packages" class="packages">
+<section id="packages" class="packages fade-in">
     <h2>Membership Plans</h2>
-    <div class="package-cards">
+    <div class="cards">
         <div class="card">
             <h3>Basic</h3>
-            <p>$20/month</p>
+            <p>₹999/month</p>
+        </div>
+        <div class="card highlight">
+            <h3>Pro</h3>
+            <p>₹1999/month</p>
         </div>
         <div class="card">
-            <h3>Standard</h3>
-            <p>$40/month</p>
-        </div>
-        <div class="card">
-            <h3>Premium</h3>
-            <p>$60/month</p>
+            <h3>Elite</h3>
+            <p>₹2999/month</p>
         </div>
     </div>
 </section>
 
-<!-- Footer -->
-<footer class="footer">
-    <p>&copy; 2026 BlackNinja. All rights reserved.</p>
+<footer>
+    <p>© 2026 ZimZone Fitness</p>
 </footer>
 
 <script src="script.js"></script>
