@@ -28,5 +28,14 @@ function scrollToSection(id) {
     window.scrollTo({
         top: offsetPosition,
         behavior: 'smooth'
+        function scrollToSection(id) {
+    const element = document.getElementById(id);
+    if (element) {
+        window.scrollTo({
+            top: element.offsetTop - 80, // Adjust for fixed navbar height
+            behavior: 'smooth'
+        });
+    }
+}
     });
 }
