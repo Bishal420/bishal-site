@@ -1,7 +1,7 @@
 {
   "name": "e-commerce-website-using-html-css-and-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "E-commerce website built with HTML, CSS, and JavaScript",
   "main": "index.html",
   "scripts": {
     "start": "serve",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/Bishal420/bishal-site.git"
   },
-  "keywords": [],
-  "author": "Ives van Hoorne",
+  "keywords": ["ecommerce", "html", "css", "javascript"],
+  "author": "Bishal420",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/Bishal420/bishal-site/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "homepage": "https://github.com/Bishal420/bishal-site#readme",
   "devDependencies": {
     "serve": "^11.2.0"
   }
