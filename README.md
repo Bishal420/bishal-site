@@ -1,1 +1,1 @@
-&copy; 2026 ZimZone Gym. Built for Performance
+&copy; 2026 BlackNinja . Built for Performance
